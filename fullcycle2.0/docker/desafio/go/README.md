@@ -10,7 +10,7 @@ Baixe a pasta `golang` do repositório e entre na mesma.
 $ cd golang
 ```
 
-## Comandos utilizados para gerar a imagem
+## Comandos utilizados
 
 Build da imagem:
 ``` bash
