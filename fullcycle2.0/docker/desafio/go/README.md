@@ -31,3 +31,22 @@ Subindo para o Dockerhub:
 ``` bash
 $ docker push bgastaldi/codeeducation:latest
 ```
+
+## Testando a imagem do Dockerhub
+
+Tendo a certeza da utilização da imagem do Dockerhub:
+
+Excluindo todos os processos/serviços do computador local:
+``` bash
+$ docker rm $(docker ps -a -q) -f  
+```
+
+Excluindo todas as imagens do computador local:
+``` bash
+$ docker rmi $(docker images -a -q) -f
+```
+
+Testando a imagem:
+``` bash
+$ docker run bgastaldi/codeeducation:latest
+```
