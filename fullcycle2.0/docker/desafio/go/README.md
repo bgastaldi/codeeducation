@@ -22,6 +22,11 @@ Execução:
  $ docker run bgastaldi/codeeducation
 ```
 
+Verificando o tamanho da imagem pela coluna SIZE:
+``` bash
+$ docker images
+```
+
 Subindo para o Dockerhub:
 ``` bash
 $ docker push bgastaldi/codeeducation:latest
